@@ -1,0 +1,68 @@
+.tip-calculator {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tip-calculator h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2rem;
+    color: #283044;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 1.2rem;
+    color: #283044;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .output-group {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .output-group p {
+    font-size: 1.2rem;
+    color: #283044;
+    margin: 5px 0;
+  }
+  
+  .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #63cdda;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #48c9b0;
+  }
+  
